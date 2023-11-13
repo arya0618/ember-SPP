@@ -55,11 +55,11 @@ myIcon: {
         },
         loadThispage:function(){
            var requestid = this.controllerFor('userhome').get('requestid');
-        console.log("requestid---",requestid);
+       
         this.set('requestid', requestid);
       
         var usertype= sessionStorage.getItem('usertype');
-        console.log("usertype",usertype);
+       
         this.set('usertype', usertype);
         
         if(usertype === "Supplier"){
